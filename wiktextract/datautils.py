@@ -4,7 +4,7 @@
 
 import re
 from .config import WiktionaryConfig
-from wikitextprocessor import ALL_LANGUAGES
+from wikitextprocessor.languages import ALL_LANGUAGES
 
 # Mapping from language code to language info
 languages_by_code = {x["code"]: x for x in ALL_LANGUAGES}
