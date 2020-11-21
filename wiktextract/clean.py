@@ -8,7 +8,7 @@
 
 import re
 import html
-from wikitextprocessor import ALL_LANGUAGES
+from wikitextprocessor.languages import ALL_LANGUAGES
 from .wikttemplates import *
 from .places import place_prefixes
 from .config import WiktionaryConfig
