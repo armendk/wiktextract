@@ -7,7 +7,9 @@ import sys
 import html
 import collections
 import wikitextparser
-from wikitextprocessor import Wtp, WikiNode, NodeKind, ALL_LANGUAGES
+from wikitextprocessor.parser import WikiNode, NodeKind
+from wikitextprocessor import Wtp
+from wikitextprocessor.languages import ALL_LANGUAGES
 from .parts_of_speech import part_of_speech_map, PARTS_OF_SPEECH
 from .config import WiktionaryConfig
 from .sectitle_corrections import sectitle_corrections
